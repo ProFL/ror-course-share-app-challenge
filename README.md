@@ -1,13 +1,12 @@
 # Ruby on Rails - Course Share App Challenge
 
-A fim de graduar seus estudos no Ruby on Rails, é feita a proposição deste desafio.
-
-O desafio é baseado em sistemas como a _Udemy_ e o _Skillshare_, com certas modificações
-e sem a necessidade da implementação da área de cursos em si, mais voltado para
-o Marketplace dos cursos. No sistema todos os usuários poderão vender ou comprar
-cursos utilizando moedas virtuais adquiridas com as vendas dos próprios cursos.
-Havendo também usuários administradores com permissão para remover cursos da plataforma
-ou estornar compras.
+Este desafio é proposto para validar todas as habilidades consideradas básicas
+para um desenvolvedor Ruby on Rails. A proposta é baseada em sistemas como a
+_Udemy_ e o _Skillshare_, com certas modificações e sem necessidade da implementação
+da área de cursos em si (maior complexidade), mas sim voltado para o Marketplace dos cursos.
+No sistema todos os usuários poderão vender ou comprar cursos utilizando moedas
+virtuais adquiridas com as vendas dos próprios cursos. Havendo também usuários
+administradores com permissão para remover cursos da plataforma ou estornar compras.
 
 - [Ruby on Rails - Course Share App Challenge](#ruby-on-rails---course-share-app-challenge)
   - [Requisitos gerais](#requisitos-gerais)
@@ -29,7 +28,11 @@ seria bem vindo.
 3. O usuário não autenticado poderá:
    1. Consultar a listagem e descrição dos cursos com seus preços e avaliações
    2. Se autenticar
+      1. Utilizando credenciais de uso exclusivo da plataforma
+      2. Utilizando um ou mais serviços de SSO (Google, Facebook, GitHub...)
    3. Criar uma nova conta (saldo inicial de 100 moedas virtuais)
+      1. Utilizando credenciais de uso exclusivo da plataforma
+      2. Utilizando um ou mais serviços de SSO (Google, Facebook, GitHub...)
    4. Buscar cursos pelo nome ou autor
 4. O usuário comum autenticado poderá:
    1. Adicionar um novo curso, inserindo seu nome, uma imagem, uma descrição e preço.
